@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace AgendaPro
 {
-    class Persona
+    class Persona //1Er comentario
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
@@ -17,7 +17,7 @@ namespace AgendaPro
         }
     }
 
-    class Cita
+    class Cita //segundo comentario
     {
         public int PersonaId { get; set; }
         public DateTime Fecha { get; set; }
